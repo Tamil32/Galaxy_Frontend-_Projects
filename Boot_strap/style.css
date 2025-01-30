@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Gowun+Batang:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --primary-color: #11a138;
+}
+.container_wrapper h1{
+    font-family: "Poppins", serif;
+    font-size: large;
+    font-weight: 400;
+    text-size-adjust: 50%;
+
+}
+
+.container_wrapper{
+    background-color:#EBE5FA;
+    margin-top: 20px;
+}
+
+.image_section img {
+    width: 100%;
+}
+
+.logo_wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 20PX;
+    padding: 50px;
+    
+}
+
+.logo_wrapper > div{
+
+    border-radius: 30px;
+
+
+}
+
